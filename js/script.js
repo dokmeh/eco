@@ -3,10 +3,6 @@ $(document).ready(function(){
       $(this).toggleClass('open');
       $('.menu').toggleClass('menu-op');
       $('.bgvideo').toggleClass('bg-gray');
-      $('.menu-sec a').click(function () {
-        $('.menu').removeClass('menu-op');
-        $('.menu-icon.open').removeClass('open');
-      });
   })
     window[$('body').attr('data-page')]();
     $('nav.menu ul li a').click(function(){
@@ -101,9 +97,4 @@ function contact()
 function about()
 {
     console.log('This is about page!');
-}
-//service
-function service()
-{
-    console.log('This is service page!');
 }

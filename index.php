@@ -38,30 +38,6 @@ switch($url_arr[0])
         $page = 'about';
         $title = 'Dokframe-about us';
         break;
-        case 'service':
-            $page = 'service';
-            $title = 'Dokframe-service';
-            break;
-        case 'rules':
-            $page = 'rules';
-            $title = 'Dokframe-rules';
-            break;
-            case 'shop':
-                $page = 'shop';
-                $title = 'Dokframe-shop';
-                break;
-                case 'magazine':
-                    $page = 'magazine';
-                    $title = 'Dokframe-magazine';
-                    break;
-                    case 'tours':
-                        $page = 'tours';
-                        $title = 'Dokframe-tours';
-                        break;
-                        case 'career':
-                            $page = 'career';
-                            $title = 'Dokframe-career';
-                            break;
 }
 switch ($method)
 {
