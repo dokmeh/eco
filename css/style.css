@@ -325,24 +325,31 @@ main.scss:3042 .radar-items li {
     top: 50%;
     left: 50%;
 }
+
 .radar-items li:nth-child(1)::before {
     margin-top: -26px;
 }
+
 .radar-items li:nth-child(2)::before {
     margin-top: 26px;
 }
+
 .radar-items li:nth-child(3)::before {
     margin-top: -16px;
 }
+
 .radar-items li:nth-child(4)::before {
     margin-top: -30px;
 }
+
 .radar-items li:nth-child(5)::before {
     margin-top: -35px;
 }
+
 .radar-items li:nth-child(6)::before {
     margin-top: -20px;
 }
+
 .radar-items li:nth-child(7)::before {
     margin-top: -27px;
 }
@@ -354,6 +361,7 @@ main.scss:3042 .radar-items li {
     -o-transform: rotate(-81deg);
     transform: rotate(-81deg);
 }
+
 .radar-items li:nth-child(2) {
     -webkit-transform: rotate(31deg);
     -moz-transform: rotate(31deg);
@@ -361,6 +369,7 @@ main.scss:3042 .radar-items li {
     -o-transform: rotate(31deg);
     transform: rotate(31deg);
 }
+
 .radar-items li:nth-child(3) {
     -webkit-transform: rotate(-21deg);
     -moz-transform: rotate(-21deg);
@@ -368,6 +377,7 @@ main.scss:3042 .radar-items li {
     -o-transform: rotate(-21deg);
     transform: rotate(-21deg);
 }
+
 .radar-items li:nth-child(4) {
     -webkit-transform: rotate(70deg);
     -moz-transform: rotate(70deg);
@@ -375,6 +385,7 @@ main.scss:3042 .radar-items li {
     -o-transform: rotate(70deg);
     transform: rotate(70deg);
 }
+
 .radar-items li:nth-child(5) {
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
@@ -382,6 +393,7 @@ main.scss:3042 .radar-items li {
     -o-transform: rotate(30deg);
     transform: rotate(30deg);
 }
+
 .radar-items li:nth-child(6) {
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
@@ -389,6 +401,7 @@ main.scss:3042 .radar-items li {
     -o-transform: rotate(10deg);
     transform: rotate(10deg);
 }
+
 .radar-items li:nth-child(7) {
     -webkit-transform: rotate(-41deg);
     -moz-transform: rotate(-41deg);
@@ -422,6 +435,52 @@ main.scss:3042 .radar-items li {
     left: 0;
 }
 
+.work-content, .touch-logic .work-content-copy {
+    padding-top: 30px;
+    margin-left: -55px;
+}
+
+.pano-icon {
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px;
+    z-index: 10;
+}
+
+main.scss:731 .pos-a-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.pano-icon .rings-icon {
+    -webkit-transition: 0.45s cubic-bezier(0.52, 0.01, 0.16, 1);
+    -moz-transition: 0.45s cubic-bezier(0.52, 0.01, 0.16, 1);
+    transition: 0.45s cubic-bezier(0.52, 0.01, 0.16, 1);
+}
+
+main.scss:1649 .rings-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pos-a-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 3vw;
+}
+.pos-a-center a{
+    font-size:1vw;
+}
+
+.blend-screen {
+    mix-blend-mode: screen;
+}
+
 .sight {
     background: url('../img/radar-center.svg');
 }
@@ -436,8 +495,37 @@ main.scss:3042 .radar-items li {
 .full-size {
     width: 100%;
     height: 100%;
+    color: #fff;
 }
 
 .radar-ring.full-size.pos-a-t-l {
     background: url(../img/radar-rim.svg) no-repeat;
+}
+
+.mountains-bg-img.pos-a-t-l.full-size {
+    background: url(../img/home-panorama.jpg) no-repeat 100% center;
+    transform: scale(1.2);
+}
+
+.mountains-bg.pos-a-t-l.full-size {
+    left: -30vw;
+    margin-top: -35vw;
+    top: 50%;
+    width: 160vw;
+    height: 70vw;
+}
+
+.js-external-link {
+    font-size:3vw;
+    
+}
+
+
+h4.project-name.large {
+    font-size: 2vw;
+    max-width: 2vw;
+}
+
+.pano-overlay-content.pos-a-t-l.generic-bg.full-size {
+    display: none;
 }

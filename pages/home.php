@@ -160,9 +160,11 @@
 
 
     $(document).ready(function () {
-        sizeHandler();
         mountainsBG = $('.mountains-bg');
-            radarSpin = $('.js-radar-spin');
+        radarSpin = $('.js-radar-spin');
+        panoramaObject = $('.panorama-object');
+        mainTitle = $('.js-main-title');
+        sizeHandler();
         panoSizeHandler();
     });
     function sizeHandler() {
