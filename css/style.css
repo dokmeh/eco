@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Josefin+Sans|Poiret+One');
 .bgvideo {
     position: absolute;
     top: -50%;
@@ -248,6 +249,10 @@ nav ul {
     top: 50%;
     width: 160vw;
     height: 70vw;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 .wraper.mountains-bg img {
@@ -276,6 +281,7 @@ nav ul {
     height: 90px;
     position: absolute;
     bottom: 50px;
+    left: 50px;
 }
 
 main.scss:3018 .radar-wrap {
@@ -472,9 +478,20 @@ main.scss:1649 .rings-icon {
     left: 50%;
     top: 50%;
     font-size: 3vw;
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Poiret One', cursive;
+
 }
-.pos-a-center a{
-    font-size:1vw;
+h3,h5{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4vw;
+}
+
+.pos-a-center a {
+    font-size: 1vw;
 }
 
 .blend-screen {
@@ -516,16 +533,68 @@ main.scss:1649 .rings-icon {
 }
 
 .js-external-link {
-    font-size:3vw;
-    
+    font-size: 3vw;
 }
-
 
 h4.project-name.large {
     font-size: 2vw;
-    max-width: 2vw;
+    max-width: 6vw;
 }
 
 .pano-overlay-content.pos-a-t-l.generic-bg.full-size {
     display: none;
+}
+
+@media screen and (min-device-width: 1500px) {
+    .mountains-bg.pos-a-t-l.full-size {
+        left: -60vw;
+        margin-top: -35vw;
+        top: 50%;
+        width: 160vw;
+        height: 70vw;
+    }
+}
+
+
+nav.menu .identity li {}
+
+li.bt-effect {
+    position: relative;
+    height: 100%;
+}
+
+nav li.bt-effect {
+    display:flex;
+    align-items:center;
+}
+li.bt-effect:before,li.bt-effect:after{
+    content:'';
+    position: absolute;
+    display:block;
+    background:#000;
+    transition:200ms ease all;
+}
+li.bt-effect:before{
+    width: 0px;
+    height: 2px;
+    transform: translateX(-10px);
+}
+li.bt-effect:hover:before{
+    width: 7px;
+    height: 2px;
+    transform: translateX(-10px);
+}
+li.bt-effect:after{
+    width: 0px;
+    height: 2px;
+    right:-10px;
+}
+li.bt-effect:hover:after{
+    width: 7px;
+    height: 2px;
+    right:-10px;
+}
+
+.ring-icon-content.pos-a img {
+    width: 500px;
 }

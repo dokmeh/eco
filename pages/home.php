@@ -305,6 +305,7 @@
                         <div class="rings-icon">
                             <div class="ring-node-icon pos-a-center"></div>
                             <div class="ring-icon-content pos-a">
+                                <img src="img/logo.png"
                                 <h5 class="letter-split"></h5>
                                 <h4 class="letter-split"></h4>
                             </div>
