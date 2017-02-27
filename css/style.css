@@ -598,3 +598,19 @@ li.bt-effect:hover:after{
 .ring-icon-content.pos-a img {
     width: 500px;
 }
+
+.vid-click-transition.vid-fill-screen.viewport-full-size.blend-screen {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+video#js-click-vid{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 110000;
+}
